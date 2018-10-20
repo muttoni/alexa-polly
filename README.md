@@ -11,10 +11,13 @@ Make sure your AWS Lambda function has permissions to access:
 - Polly
 
 
+# Installation
+
+`npm install alexa-polly`
+
 # Usage
 
 ```javascript
-
 //Inside a lambda context
 exports.handler = async (event) => {
 	const { AlexaPolly } = require('alexa-polly');
