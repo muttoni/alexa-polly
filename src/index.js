@@ -11,6 +11,8 @@ const AlexaPolly = (options) => {
 		defaultVoice = 'Brian',
 		returnAudioBuffer = false
 	} = options;
+
+	const AWS = require('aws-sdk');
 	
 	AWS.config.apiVersions = {
 		polly: '2016-06-10',
@@ -156,7 +158,9 @@ const AlexaPolly = (options) => {
 	function _textToHash(text) {
 		return require('crypto').createHash('md5').update(text).digest('hex');
 	}
+
+	return this;
 	
 }
 
-export default AlexaPolly
+module.exports = { AlexaPolly }

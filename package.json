@@ -1,6 +1,6 @@
 {
   "name": "alexa-polly",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "Easily create Polly utterances and cache them in S3",
   "main": "./src/index.js",
   "files": [
