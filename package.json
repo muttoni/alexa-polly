@@ -1,0 +1,23 @@
+{
+  "name": "alexa-polly",
+  "version": "1.0.0",
+  "description": "Easily create Polly utterances and cache them in S3",
+  "main": "./src/index.js",
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "alexa",
+    "polly",
+    "tts",
+    "text to speech",
+    "lambda",
+    "s3"
+  ],
+  "author": "Andrea Muttoni <maverickmuttoni@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/muttoni/alexa-polly/issues"
+  },
+  "homepage": "https://github.com/muttoni/alexa-polly#readme"
+}
